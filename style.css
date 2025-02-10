@@ -89,7 +89,7 @@ body{
     justify-content: space-evenly;
 }
 .body-top{
-    margin:0px 0px;
+    margin:0px 30px;
 }
 .section1{
     background-color: white;
@@ -403,12 +403,11 @@ body{
         margin: 10px;
     }   
     .section1 {
-        width: 300px;
+        width: 320px;
         flex-wrap: wrap;
         height: auto;
         padding: 10px;
         text-align: center;
-        margin: 0 10px;
         position: none;
     }
 
@@ -430,7 +429,7 @@ body{
     .cards {
         height: 330px;
         line-height: 5px;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
     .cards>p{
         line-height: 5px;
@@ -475,15 +474,21 @@ body{
         align-items: center;
         text-align: center;
         width: 100%;
+        margin-bottom: 30px;
+        padding-bottom: 10px;
+
     }
 
     .footer-right {
         flex-wrap: wrap;
+        justify-content: space-evenly;
         align-items: center;
         width: 100%;
         margin-top: 10px;
     }
-
+    .ft2{
+        text-align: center;
+    }
     .ft-left {
         flex-wrap: wrap;
         align-items: center;
