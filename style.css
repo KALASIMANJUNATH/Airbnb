@@ -89,7 +89,7 @@ body{
     justify-content: space-evenly;
 }
 .body-top{
-    margin:0px 30px;
+    margin:0px 0px;
 }
 .section1{
     background-color: white;
@@ -102,10 +102,6 @@ body{
     justify-content: space-between;
     line-height: 0%;
     font-size: 8px;
-    position: sticky;
-    top: 0;
-    margin-left: 29px;
-    margin-right: 29px;
 }
 .section-right{
     display: flex;
